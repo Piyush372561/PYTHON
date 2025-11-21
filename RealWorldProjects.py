@@ -1,0 +1,1 @@
+print("This file contains all projects of python!")
