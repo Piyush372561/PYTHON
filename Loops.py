@@ -67,7 +67,7 @@ while n <= 10 :
           n += 1
           continue #skip 
      print(n)
-     n += 1 """
+     n += 1 
 
 
 #FOR LOOP  --> agar hume kisi data type ke upar traverse krna hai toh vo saare kaam hum for loop se karenge
@@ -79,4 +79,33 @@ for val in num:
 str = "Piyush Kushwaha"
 
 for char in str:
-     print(char)
+     print(char) 
+
+#Question 1
+list = (1,4,9,16,25,36,49,64,81,100)
+idx = 0
+x = 49
+for value in list:
+     if (value == x):
+       print("number found at idx", idx)
+       break
+     idx += 1 """
+
+#RANGE()
+for i in range(10):
+    print(i)
+
+for i in range(2,50,1):
+    print(i)
+
+for i in range(0,105,5):
+    print(i)
+
+#PASS STATEMENT 
+for i in range(5):
+    pass
+
+if i > 5:
+    pass 
+
+print("some useful work")
