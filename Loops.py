@@ -1,12 +1,12 @@
 print("Loops in Python.")
 
 # while loop --> jaise hume agar kisi iterator ke upar kaam krna hai jaise ki kisi variable ki value ko update krna hai fir koii stoping condition hai vo saare kaam while loop se krenge 
+
 # Question --> 1
-"""i = 1
+i = 1
 while i <= 100 :
     print(i)
     i += 1
-
 print("Loop Ended")
 
 # Question --> 2
@@ -14,7 +14,6 @@ i = 100
 while i >= 1 :
     print(i)
     i -= 1
-
 print("Loop Ended") 
 
 #Question --> 3 Multiplication table of a number n
@@ -89,7 +88,7 @@ for value in list:
      if (value == x):
        print("number found at idx", idx)
        break
-     idx += 1 """
+     idx += 1 
 
 #RANGE()
 for i in range(10):
