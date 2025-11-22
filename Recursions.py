@@ -38,3 +38,15 @@ def calc_sum(n):
 sum = calc_sum(5)
 print(sum)
 
+# Write a recursive function to print all elements in a list.
+# Hint: use list & index as parameters
+
+def reoccur_func(list,idx = 0):
+         if(idx == len(list)):
+              return
+         print(list[idx])
+         reoccur_func(list, idx + 1)
+
+
+fruits = ["mango","litchi","apple","banana"]
+reoccur_func(fruits)
