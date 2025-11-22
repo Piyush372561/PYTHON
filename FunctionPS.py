@@ -31,3 +31,15 @@ def converter(usd_val):
 
 converter(10)    
 
+
+# ek function likho jisme ek number input hoga or agr number odd hai toh vo odd print krega or agr even huaa toh vo even print krega 
+def Odd_Even(n):
+    if(n % 2 != 0):
+        print("Odd")
+    elif(n % 2 == 0):
+        print("Even")
+    else:
+        print("Invalid Input.")
+
+Odd_Even(6)        
+
