@@ -1,4 +1,4 @@
-print("Recursion.....")
+"""print("Recursion.....")
 
 #print the values = 5, 4, 3, 2, 1
 def show(n):
@@ -18,4 +18,23 @@ def factorial(n):
       
 fact = factorial(1)
 print("Factorial:",fact)
+
+#Write a recursive function to calculate the sum of first n natural numbers.
+#self written code 
+def addition(n):
+     sum = 0
+     if(n <= 5):
+       sum += n
+     print(sum)
+
+print(addition(int(input("Enter the number: "))))"""
+
+#exact solution
+def calc_sum(n):
+     if(n == 0):
+       return 0
+     return calc_sum(n-1) + n
+
+sum = calc_sum(5)
+print(sum)
 
